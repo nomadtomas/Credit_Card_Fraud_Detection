@@ -8,6 +8,7 @@
 * [General Information](#general-information)
     * [Data](#data)
     * [EDA](#eda)
+    * [Model](#model)
 * [Technologies](#technologies)
     * [Python](#python)
     * [Visualization](#visualization)
@@ -31,11 +32,16 @@ These transactions occurred in two days, where we have 492 frauds out of 284,807
 <p align="center">
   <img src="images/fraud_corr.png">
 </p>
-
+From this initial look at the data I can see that some of the features are showing stronger correlation to the fraud cases than others. This is a good way to begin so I can start developing a set of features to begin the model. I can also see that on average the amount involved in fraud cases is 34 dollars higher than normal transactions. Along with that, the max amount for a fraudulant charge did not exceed $2,200.
+<p align="center">
+  <img src="images/amount_histogram.png">
+</p>
 ## Technologies
 <p align="center">
   <img src="images/ml.jpg">
 </p>
+
+### Model:
 
 ###### Python:
 Data Analysis: Python 3, Numpy, Pandas, Scikit-Learn, Scipy<br>
