@@ -19,7 +19,7 @@ As we move more and more towards a cashless society, fraud detection will become
 
 ### Data:
 <p align="center">
-  <img src="images/fraud_corr.png">
+  <img src="images/fraud_case_ratio.png">
 </p>
 
 Data used for this analysis was gathered from kaggle. https://www.kaggle.com/mlg-ulb/creditcardfraud.
@@ -28,8 +28,9 @@ The datasets contains transactions made by credit cards in September 2013 by eur
 These transactions occurred in two days, where we have 492 frauds out of 284,807 transactions.  This is undoubtedly a highly imbalanced dataset. Due to confidentiality issues, the file contains only numerical input variables which are the result of a PCA transformation. 
 
 ### EDA:
-
-
+<p align="center">
+  <img src="images/fraud_corr.png">
+</p>
 
 ## Technologies
 <p align="center">
