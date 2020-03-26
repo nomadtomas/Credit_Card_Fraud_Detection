@@ -64,10 +64,16 @@ Now that I have gained some insight into our data, I can begin our model selecti
       <TD>$21,946,720</TD>
    </TR> 
 </TABLE>
-Accuracy is not something you want to use as you measure of success when dealing with highly unbalanced data. Especially in fraud detection.
+
+Accuracy is not something you want to use as you measure of success when dealing with highly unbalanced data. Especially in fraud detection.<br>
 
 Due to the dimensionality and potential future missing values, and large dataset, I leveraged the power of Random forest classifier since it can handle missing values and maintain the accuracy of a large proportion of data.
 If there are more trees, it won’t allow overfitting trees in the model and it can handle a large data set with higher dimensionality.  
+
+<p align="center">
+  <img class="right", src="images/modified_model_roc.png">
+  <img class="left", src="images/modified_feature_importance.png">
+</p>
 
 ## Technologies
 <p align="center">
