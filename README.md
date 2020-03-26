@@ -17,7 +17,7 @@
 
 
 ## General Information
-As we move more and more towards a cashless society, fraud detection will become increasingly important.  According to Shift Processing it is estimated that approximately $24.26 Billion dollars was lost due to payment card fraud worldwide.  It is a definite problem that needs to be addressed.  Luckily, there is such a thing as machine learning that can create a strong defense against such crimes.  I have taken a Kaggle dataset and utilized a random forest classification model to take on this problem.     
+As we move more and more towards a cashless society, fraud detection will become increasingly important.  According to Shift Processing it is estimated that approximately $24.26 Billion dollars was lost due to payment card fraud worldwide.  It is a definite problem that needs to be addressed.  Luckily, there is such a thing as machine learning that can create a strong defense against such crimes.  I have taken a Kaggle dataset and utilized a random forest classification model to take on this problem.  All code can be found under the ```notebooks``` folder, file name ```fraud_detection.ipynb```. 
 
 ### Data:
 <p align="center">
@@ -64,6 +64,10 @@ Now that I have gained some insight into our data, I can begin our model selecti
       <TD>$21,946,720</TD>
    </TR> 
 </TABLE>
+Accuracy is not something you want to use as you measure of success when dealing with highly unbalanced data. Especially in fraud detection.
+
+Due to the dimensionality and potential future missing values, and large dataset, I leveraged the power of Random forest classifier since it can handle missing values and maintain the accuracy of a large proportion of data.
+If there are more trees, it won’t allow overfitting trees in the model and it can handle a large data set with higher dimensionality.  
 
 ## Technologies
 <p align="center">
