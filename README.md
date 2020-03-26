@@ -44,7 +44,7 @@ From this initial look at the data I can see that some of the features are showi
 ### Model:
 Now that I have gained some insight into our data, I can begin our model selection and testing. First I can establish the base-model. Typically this would be the time when an expert in the field would tell me what the success metric is. However, that not being the case for this project. I will start at a very basic base model. This will be done by finding the accuracy of doing nothing (AKA predicting all transactions are normal). This serves two purposes; it allows me to quantify what the true scope of the problem is, and it gives me a metric to show how much my more robust model can save the company.
 
-<TABLE align="center">
+<table align="center">
    <TR>    
        <TH>Action</TH>
        <TH>Outcome</TH>
@@ -61,7 +61,7 @@ Now that I have gained some insight into our data, I can begin our model selecti
       <TD>Cost of Fraud Cases Per-Year</TD>
       <TD>$21,946,720</TD>
    </TR> 
-</TABLE>
+</table>
 
 ###### Python:
 Data Analysis: Python 3, Numpy, Pandas, Scikit-Learn, Scipy<br>
