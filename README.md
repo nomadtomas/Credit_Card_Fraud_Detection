@@ -1,6 +1,6 @@
 # Credit Card Fraud Detection
 <p align="center">
-  <img src="../images/cc_fraud.jpg">
+  <img src="images/cc_fraud.jpg">
 </p>
 
 ## Table of Contents
@@ -19,7 +19,7 @@ As we move more and more towards a cashless society, fraud detection will become
 
 ### Data:
 <p align="center">
-  <img src="images/realtylogos.png">
+  <img src="images/fraud_corr.png">
 </p>
 
 Data used for this analysis was gathered from kaggle. https://www.kaggle.com/mlg-ulb/creditcardfraud.
@@ -33,7 +33,7 @@ These transactions occurred in two days, where we have 492 frauds out of 284,807
 
 ## Technologies
 <p align="center">
-  <img src="../images/ml.jpg">
+  <img src="images/ml.jpg">
 </p>
 
 ###### Python:
