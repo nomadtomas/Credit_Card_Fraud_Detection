@@ -12,6 +12,7 @@
 * [Technologies](#technologies)
     * [Python](#python)
     * [Visualization](#visualization)
+* [Conclusion](#conclusion)
 * [Future Improvements](#future-improvements)
 
 
@@ -68,6 +69,13 @@ Data Analysis: Python 3, Numpy, Pandas, Scikit-Learn, Scipy<br>
 
 ###### Visualization:
 Data Visualization: Matplotlib, Seaborn
+
+## Conclusion
+In order to gauge the savings of our model we would have to create a cost matrix that takes into account the cost of false positive vs false negative.  This will be based on case-by-case basis.  However, the ability to utilize even the most basic random forest models and correctly classify each case is something to definitely implement.   
+<p align="center">
+<img src="images/cost_matrix.png">
+</p>
+Ultimately, looking forward it would be great to improve our model is my incorporating more data.  Perhaps try XGBoost as well or an ensemble of methods.  Running an extensive Gridsearch could be an option.  At the end of the day the cost benifit ratio will have to be based on monetary value.  Below I have added a way to vary thresholds to get a better understanding between the precision and recall trade-off.  
 
 ## Future Improvements
 • Implement a more robust feature selection method, perhaps backwards elimination<br>
